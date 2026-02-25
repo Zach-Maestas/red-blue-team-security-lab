@@ -12,10 +12,10 @@ My assigned red team partner didn't generate attack traffic against my deployed 
 
 ## 📁 What's in this folder
 
-- `podman-compose.yml` / environment artifacts (lab services + layout)
-- `capture.pcap` (network capture for validation)
-- `ufw.log` (host firewall telemetry)
-- `log/` (service and system logs collected from the vulnerable container / host)
+- `podman-compose.yml` (environment artifacts: services + layout)
+- `services.pdf` (diagram/descriptions of the Podman services)
+- `logs/` (service/system logs from the dataset)
+- `report/` (full write-up)
 
 ## 📊 Executive Summary
 

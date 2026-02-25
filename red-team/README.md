@@ -28,7 +28,7 @@ This section documents an **authorized penetration test** against a student VM. 
 
 **Overall risk rating: CRITICAL** 🔥
 
-### Finding 1: Unauthorized Root Access via Weak SSH Configuration (Critical)
+### Finding: Unauthorized Root Access via SSH Misconfiguration (Critical)
 
 - **Impact:** Immediate privileged access without brute force or privilege escalation — total system compromise
 - **Affected service:** SSH on TCP **port 2222** (`192.168.0.153`)
@@ -60,4 +60,4 @@ Service enumeration → SSH on port 2222 flagged as high-value → validated cri
 
 ## ⚖️ Responsible Disclosure
 
-This work was performed **only** in an authorized university lab environment and is shared for educational/portfolio purposes.
+All activity was performed **only** in an authorized university lab environment and is shared for educational/portfolio purposes.
